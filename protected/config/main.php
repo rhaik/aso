@@ -48,7 +48,7 @@ return array(
 			//redis组件
 			"redis" => array(
 					"class" => "ext.YiiRedis.ARedisConnection",
-					"hostname" => "114.215.130.131",
+					"hostname" => "127.0.0.1",
 					"port" => 6379,
 					"database" => 1,
 					"prefix" => "Yii.redis."
